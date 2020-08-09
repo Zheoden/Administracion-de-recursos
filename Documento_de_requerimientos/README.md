@@ -19,7 +19,7 @@
 
 
 ## Requerimientos Funcionales
-Se detallan todos los Requerimientos Funcionales del Sistema
+A continuación se listan los requerimientos funcionales del sistema:
 
 - Integración con brokers de pago
 - Integración con AFIP
