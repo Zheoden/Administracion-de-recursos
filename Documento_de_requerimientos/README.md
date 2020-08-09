@@ -70,7 +70,7 @@ Se utilizará un stack tecnológico que cuente con una amplia comunidad que lo u
 ### Asegurar un RTO máximo de 1hs
 El sistema deberá garantizar un tiempo objetivo de recuperación de máximo 1 hora ante una posible caída del mismo.
 
-### Restricciones:
+## Restricciones:
 Detalle de las Restricciones impuestas sobre el proyecto pero que no son restricciones sobre el producto, ejemplos son proceso de software a seguir, fechas de entrega, hitos de entrega fijos, etc
 
 - Restricción 1
