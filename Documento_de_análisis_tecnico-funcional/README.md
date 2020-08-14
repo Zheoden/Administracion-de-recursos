@@ -2,15 +2,15 @@
 
 ## Tabla de contenidos
 - [Documento de Análisis Técnico-Funcional](#documento-de-análisis-técnico-funcional)
-- [Transacciones](#Transacciones)
-- [Ventas del negocio](#Ventas-del-negocio)
-- [Integración con portales de venta](#Integración-con-portales-de-venta)
-- [Integración con AFIP](#Integración-con-AFIP)
-- [Manejo del stock](#Manejo-del-stock)
-- [Integración con brokers de pago](#Integración-con-brokers-de-pago)
-- [Integración con la empresa compradora](#Integración-con-la-empresa-compradora)
-- [Tiempo de recuperación objetivo](#Tiempo-de-recuperación-objetivo)
-- [Punto de recuperación objetivo](#Punto-de-recuperación-objetivo)
+    - [Transacciones](#Transacciones)
+    - [Ventas del negocio](#Ventas-del-negocio)
+    - [Integración con portales de venta](#Integración-con-portales-de-venta)
+    - [Integración con AFIP](#Integración-con-AFIP)
+    - [Manejo del stock](#Manejo-del-stock)
+    - [Integración con brokers de pago](#Integración-con-brokers-de-pago)
+    - [Integración con la empresa compradora](#Integración-con-la-empresa-compradora)
+    - [Tiempo de recuperación objetivo](#Tiempo-de-recuperación-objetivo)
+    - [Punto de recuperación objetivo](#Punto-de-recuperación-objetivo)
 
 ## Documento de Análisis Técnico-Funcional
 Este documento tiene como objetivo determinar la brecha técnico-funcional existente entre la solución actual de la empresa y la solución que se espera alcanzar. Así mismo, se analiza punto por punto los cambios que hay que realizar, indicando la brecha correspondiente.
