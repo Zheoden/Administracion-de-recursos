@@ -28,32 +28,32 @@ Este documento tiene como objetivo determinar la brecha técnico-funcional exist
 ### Integración con portales de venta
 **Situación Actual**: no existe integración con ningún portal de venta.  
 **Situación Deseada**: integrar el sistema con los portales de venta más conocidos.  
-**Brecha**: actualmente, al no contar con una página de ventas propia y solo realizar ventas online a través de Mercado Libre, no existe ninguna integración realizada, por lo que deberá realizarse cada una de las integraciones deseadas.  
+**Brecha**: se debe desarrollar una página web multiplataforma para realizar ventas propias (la misma deberá desarrollarse desde cero, ya que actualmente no se cuenta con un website propio).  
 
 ### Integración con AFIP
 **Situación Actual**: se emiten las facturas manualmente.  
-**Situación Deseada**: integrar el sistema con AFIP mínimamente para facturación electrónica.  
-**Brecha**: se deberá realizar la integración con AFIP para realizar las facturas automáticamente ante la venta de un producto. Hoy en día, esto se realiza de manera manual.  
+**Situación Deseada**: integrar el sistema con los portales de venta más conocidos.  
+**Brecha**: se deberá realizar la integración con AFIP para realizar las facturas automáticamente ante la venta de un producto. Hoy en día, esto se realiza de manera manual.    
 
 ### Manejo del stock
 **Situación Actual**: se maneja el stock manualmente.  
 **Situación Deseada**: manejo de stock online.  
-**Brecha**: se deberá agregar a la base de datos, el stock actual de la empresa para así poder llevar un control automático a la hora de realizar las ventas. Además, se deberá crear un backoffice para poder dar de alta el stock en el sistema.  
+**Brecha**: se deberá agregar a la base de datos, el stock actual de la empresa para así poder llevar un control automático a la hora de realizar las ventas. Además, se deberá crear un backoffice para poder dar de alta, baja y modificacion el stock en el sistema.  
 
 ### Integración con brokers de pago
 **Situación Actual**: actualmente el sistema solo soporta los medios de pago que Mercado Libre brinda. Esta apreciación es únicamente para los medios de venta digitales.  
-**Situación Deseada**: integrar el sistema actual con al menos dos brokers de pago.  
-**Brecha**: se deberá integrar con los brokers de pago más conocidos del mercado, inicialmente con mercadopago y paypal, además de tarjetas de credito y debito para ventas online.  
+**Situación Deseada**: integrar el sistema actual con al menos dos brokers de pago.   
+**Brecha**: se deberá integrar con los brokers de pago más conocidos del mercado, inicialmente con mercadopago y paypal, además de tarjetas de credito y debito para ventas online.   
 
 ### Integración con la empresa compradora
 **Situación Actual**: el sistema no se encuentra integrado con los sistemas de la empresa compradora, dado que la compra se realizó recientemente.  
 **Situación Deseada**: se integrará el sistema con los sistemas de la empresa compradora.  
-**Brecha**: se le proveerá a la empresa compradora una API para la integración de la misma al sistema existente actualmente. Esta API contemplará el control de producción, de compras, de ventas y de stock.  
+**Brecha**: se le proveerá a la empresa compradora una API para la integración de la misma al sistema existente actualmente. Esta API contemplará el control de producción, de compras, de ventas y de stock.   
 
 ### Tiempo de recuperación objetivo
 **Situación Actual**: el RTO actual no está medido.  
 **Situación Deseada**: RTO máximo de 1 hs.  
-**Brecha**: dado que la app es muy simple ya que cuenta con todos los controles manuales, y el servidor tiene muy buenas características, se presume que hoy en día cuenta con un RTO bajo (menos de 1h).  
+**Brecha**: dado que la app es muy simple ya que cuenta con todos los controles manuales, y el servidor tiene muy buenas características, se presume que hoy en día cuenta con un RTO bajo. Con la solución se agregara un servidor nuevo en otro data center para evitar que ante problemas físicos del servidor haya una afectación al servicio.  
 
 ### Punto de recuperación objetivo
 **Situación Actual**: el RPO actual no está medido.  
