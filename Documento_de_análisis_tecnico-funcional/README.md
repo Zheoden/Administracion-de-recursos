@@ -58,4 +58,4 @@ Este documento tiene como objetivo determinar la brecha técnico-funcional exist
 ### Punto de recuperación objetivo
 **Situación Actual**: el RPO actual no está medido.  
 **Situación Deseada**: RPO igual a 0.  
-**Brecha**: dado que los servidores cuentan con discos espejados, se forma un RAID 1, con lo cual en caso de un fallo, se puede levantar el otro disco y por ende no se perdería dato alguno. Salvo la información que debería haber entrado mientras el sistema estaba caído.  
+**Brecha**: dado que los servidores cuentan con discos espejados, se forma un RAID 1, con lo cual en caso de un fallo, se puede levantar el otro disco evitando la pérdida de datos (salvo la información que podría haber entrado mientras el sistema estuvo caído). En caso de una falla en algún otro componente del servidor, va a implicar que estemos fuera de servicio, por lo que se va a implementar un balanceador de carga. En caso de algún daño físico al servidor, el balanceador va a distribuir todas las transacciones a los servidores que continúen operando.  
